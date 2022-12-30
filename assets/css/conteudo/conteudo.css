@@ -1,0 +1,32 @@
+.conteudo {
+  width: 100vw;
+  margin-top: 10rem;
+}
+.conteudo__card {
+  display: flex;
+  gap: 80px;
+}
+.conteudo__card--destaque {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.conteudo__card--item {
+  width: 330px;
+  height: 500px;
+  border-radius: 50px 50px;
+  border-top-color: red;
+  border-bottom: blueviolet;
+  background-color: #000;
+  border: 5px solid;
+  padding: 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteudo__card-texto--destaque {
+  width: 400px;
+}

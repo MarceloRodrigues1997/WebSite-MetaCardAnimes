@@ -1,0 +1,19 @@
+
+.main__conteudo {
+  width: 100vw;
+  margin-top: 100px;
+}
+.main_section__destaque {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.main__item-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.main_section__destaque--parceiros nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px;
+}

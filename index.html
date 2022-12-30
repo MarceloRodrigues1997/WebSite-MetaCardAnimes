@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meta Card Animes</title>
+  <!--Link Font Logo-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--Link pages CSS-->
+  <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+  <link rel="stylesheet" href="./assets/css/conteudo/conteudo.css">
+
+</head>
+
+<body>
+  <header class="cabecalho">
+    <h1 class="cabecalho__logo">MetaCardAnime</h1>
+    <nav class="cabecalho__nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Marketplace</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Discover</a></li>
+        <a class="button__wallet--conect" href="#">Connect wallet</a>
+
+      </ul>
+    </nav>
+  </header>
+  <main class="conteudo">
+    <section class="conteudo__card--destaque">
+      <div class="conteudo__card">
+        <div class="conteudo__card--item">
+          card 1
+        </div>
+        <div class="conteudo__card--item">
+          card 2
+        </div>
+        <div class="conteudo__card--item">
+          card 3
+        </div>
+      </div>
+      <div class="conteudo__card-texto--destaque">
+        <p>Discover Unique</p>
+        <p>Collections And Actions</p>
+        <p>With NFTs Designed</p>
+        <p>For All</p>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur
+          </p>
+        </div>
+    </section>
+  </main>
+
+  <script src="./assets/js/vanilla/vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".conteudo__card--item"), {
+      max: 25,
+      speed: 400,
+      glare: true
+    });
+  </script>
+</body>
+
+</html>
